@@ -66,8 +66,6 @@ Pod::Spec.new do |spec|
     sp.preserve_path = 'JumioMobileSDK-3.9.2/Localizations/*.lproj/Localizable-Netverify.strings'
   end
 
-
-
   spec.subspec 'NetverifyBarcode' do |sp|
     sp.vendored_frameworks = 'JumioMobileSDK-3.9.2/JumioCore.framework',
 			    'JumioMobileSDK-3.9.2/Netverify.framework',
@@ -75,8 +73,6 @@ Pod::Spec.new do |spec|
 			    'JumioMobileSDK-3.9.2/Microblink.framework'
     sp.preserve_path = 'JumioMobileSDK-3.9.2/Localizations/*.lproj/Localizable-Netverify.strings'
   end
-
-
 
   spec.subspec 'NetverifyFace+iProov' do |sp|
     sp.vendored_frameworks = 'JumioMobileSDK-3.9.2/JumioCore.framework',
