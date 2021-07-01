@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version          = '3.9.2'
   spec.swift_versions	= ['5.0']
   spec.summary          = 'This Jumio SDK includes frameworks for Netverify, Fastfill, Authentication, Document Verification and BAM Checkout.'
-  spec. documentation_url		= 'https://support.jumio.com/'
+  spec.documentation_url		= 'https://support.jumio.com/'
   spec.homepage         = 'http://www.jumio.com'
   spec.authors          = { 'Jumio Corporation' => 'support@jumio.com' }
   spec.source           = { :git => 'https://github.com/alya247/mobile-sdk-ios.git', :tag => '3.9.2-iproov-6' }
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
                              'JumioMobileSDK-3.9.2/JumioNFC.framework',
                              'JumioMobileSDK-3.9.2/JumioIProov.framework'
     sp.preserve_path = 'JumioMobileSDK-3.9.2/Localizations/*.lproj/Localizable-*.strings'
-    sp.dependency 'iProov', '~> v9.0.0-beta1'
+    sp.dependency 'iProov', '~> 9.0.0-beta1'
   end
 
   spec.subspec 'BAMCheckout' do |sp|
@@ -40,7 +40,7 @@ Pod::Spec.new do |spec|
                              'JumioMobileSDK-3.9.2/JumioNFC.framework',
                              'JumioMobileSDK-3.9.2/JumioIProov.framework'
     sp.preserve_path = 'JumioMobileSDK-3.9.2/Localizations/*.lproj/Localizable-*.strings'
-    sp.dependency 'iProov', '~> v9.0.0-beta1'
+    sp.dependency 'iProov', '~> 9.0.0-beta1'
   end
 
   spec.subspec 'NetverifyBase' do |sp|
@@ -69,7 +69,7 @@ Pod::Spec.new do |spec|
                              'JumioMobileSDK-3.9.2/Netverify.framework',
                              'JumioMobileSDK-3.9.2/JumioIProov.framework'
     sp.preserve_path = 'JumioMobileSDK-3.9.2/Localizations/*.lproj/Localizable-*.strings'
-    sp.dependency 'iProov', '~> v9.0.0-beta1'
+    sp.dependency 'iProov', '~> 9.0.0-beta1'
   end
 
   spec.subspec 'DocumentVerification' do |sp|
