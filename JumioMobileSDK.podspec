@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec. documentation_url		= 'https://support.jumio.com/'
   spec.homepage         = 'http://www.jumio.com'
   spec.authors          = { 'Jumio Corporation' => 'support@jumio.com' }
-  spec.source           = { :http => 'https://mobile-sdk.jumio.com/com/jumio/ios/jumio-mobile-sdk/3.9.2/ios-jumio-mobile-sdk-3.9.2.zip' }
+  spec.source           = { :git => 'https://github.com/alya247/mobile-sdk-ios.git', :tag => '3.9.2-iproov-6' }
   spec.license = { :type => "Commercial", :text => 'See http://www.jumio.com/' }
   spec.requires_arc     = true
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC -lc++ -lz',
